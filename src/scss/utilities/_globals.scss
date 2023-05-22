@@ -1,0 +1,66 @@
+:root {
+    //--font-sans: 'Arial', sans-serif;
+
+    --section-gap: 8rem;
+    --section-gap-inner: calc( var(--section-gap) * 0.75 );
+
+    --gap-xl: 4rem;
+    --gap-l: 3rem;
+    --gap-m: 2rem;
+    --gap-s: 1rem;
+
+    --border-radius: 0px;
+
+    --color-dark: #111;
+    --color-dark-100: #222;
+    --color-dark-150: #333;
+    --color-dark-200: #444;
+    --color-dark-300: #666;
+    --color-dark-500: #888;
+    --color-dark-600: #999;
+    --color-dark-700: #b5b5b5;
+    --color-dark-800: #d5d5d5;
+    --color-dark-900: #f1f1f1;
+
+    --color-accent: #009fbb;
+    --color-accent-200: #009fbb;
+    --color-accent-300: #53cde2;
+    --color-accent-400: #009fbb;
+    --color-accent-500: #009fbb;
+    --color-accent-600: #009fbb;
+    --color-accent-700: #009fbb;
+    --color-accent-800: #009fbb;
+    --color-accent-900: #009fbb;
+
+    --color-light: #fff;
+    --color-light-200: #f9f9f9;
+    --color-light-300: #f1f1f1;
+    --color-light-400: #eee;
+    --color-light-500: #e1e1e1;
+    --color-light-600: #ddd;
+    --color-light-700: #ccc;
+    --color-light-800: #bbb;
+    --color-light-900: #aaa;
+
+    --font-sans: 'Noto Sans', ui-sans-serif, sans-serif;
+    --font-serif: 'Noto Sans', ui-sans-serif, sans-serif;
+
+    --line-height: 1.5;
+
+    --font-scale: 1.15;
+    --font-size: 1rem;
+
+    --font-size-small: calc(var(--font-size) / var(--font-scale));
+    --font-size-1: var(--font-size);
+    --font-size-2: calc( var(--font-size-1) * var(--font-scale) );
+    --font-size-3: calc( var(--font-size-2) * var(--font-scale) );
+    --font-size-4: calc( var(--font-size-3) * var(--font-scale) );
+    --font-size-5: calc( var(--font-size-4) * var(--font-scale) );
+    --font-size-6: calc( var(--font-size-5) * var(--font-scale) );
+
+    --menu-height: 60px;
+    
+    --page-inner: 90rem; //max-läget för sidan
+    --grid-container: minmax(2rem, 1fr) [inner-start] minmax(0, var(--page-inner)) [inner-end] minmax(2rem, 1fr);
+
+}

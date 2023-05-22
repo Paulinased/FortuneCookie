@@ -1,55 +1,55 @@
 body {
-    font-family: var(--font-sans);
-    font-size: var(--font-size-1);
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
+    //font-family: var(--font-sans);
+    //font-size: var(--font-size-1);
+    //-webkit-font-smoothing: antialiased;
+    //-moz-osx-font-smoothing: grayscale;
 }
 
 
 h1, h2, h3, h4, h5, h6 {
-    font-family: var(--font-serif);
-    color: var(--color-light-100)
+    //font-family: var(--font-serif);
+    //color: var(--color-light-100)
 }
 
 h1 {
-    font-size: var(--font-size-6);
+    
 
 }
 h2 {
-    font-size: var(--font-size-5);
+    
 
 }
 h3 {
-    font-size: var(--font-size-4);
+    
 
 }
 h4 {
-    font-size: var(--font-size-3);
+    
 
 }
 h5 {
-    font-size: var(--font-size-2);
+    
 
 }
 h6 {
-    font-size: var(--font-size-1);
+    
 
 }
 
 p {
-    line-height: var(--line-height);
-    color: var(--color-light-500);
+    //line-height: var(--line-height);
+    
 }
 
 a {
-    color: var(--color-light);
-    text-decoration: none;
-    line-height: var(--line-height);
-    &:hover {
-        color: var(--color-accent);
-    }
+    //color: var(--color-light);
+    //text-decoration: none;
+    //line-height: var(--line-height);
+    //&:hover {
+       // color: var(--color-accent);
+    //}
 }
 
 li {
-    line-height: var(--line-height);
+    //line-height: var(--line-height);
 }

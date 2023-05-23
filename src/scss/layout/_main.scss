@@ -1,0 +1,48 @@
+.main {
+    min-height: 100vh;
+    background: url('Bilder/background-red.jpg') no-repeat;
+    background-size: cover;
+    background-position: center center; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    &-inner-cookie {
+        text-align: center;
+        padding-top: 18rem;
+        padding-left: 5rem;
+        padding-bottom: 3rem;
+
+    }
+
+    &-inner-button {
+        text-align: center;
+        font-size: 70px;
+        padding-left: 3rem;
+        padding-bottom: 10rem;
+
+        &-button {
+            text-decoration: none;
+            color: #FFF8CA;
+            background-color: transparent;
+            padding: 1rem 1rem 0.1rem 1rem;
+            border: 3px solid #F9EC92;
+            padding-left: 60px;
+            padding-right: 60px;
+            font-weight: 500;
+
+            &:hover {
+                background-color: #F9EC92;
+                color: #4F0404;
+            }
+        }
+    }
+
+}
+
+// togglad, cracked cookie
+.main-inner-cookie img.toggled {
+    padding-right: 5rem;
+    padding-top: 4.4rem;
+}
+
